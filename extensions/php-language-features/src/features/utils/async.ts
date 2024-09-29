@@ -10,10 +10,10 @@ export interface ITask<T> {
 /**
  * A helper to prevent accumulation of sequential async tasks.
  *
- * Imagine a mail man with the sole task of delivering letters. As soon as
+ * Imagine a mail courier with the sole task of delivering letters. As soon as
  * a letter submitted for delivery, he drives to the destination, delivers it
  * and returns to his base. Imagine that during the trip, N more letters were submitted.
- * When the mail man returns, he picks those N letters and delivers them all in a
+ * When the mail courier returns, he picks those N letters and delivers them all in a
  * single trip. Even though N+1 submissions occurred, only 2 deliveries were made.
  *
  * The throttler implements this via the queue() method, by providing it a task
@@ -80,7 +80,7 @@ export class Throttler<T> {
 /**
  * A helper to delay execution of a task that is being requested often.
  *
- * Following the throttler, now imagine the mail man wants to optimize the number of
+ * Following the throttler, now imagine the mail courier wants to optimize the number of
  * trips proactively. The trip itself can be long, so the he decides not to make the trip
  * as soon as a letter is submitted. Instead he waits a while, in case more
  * letters are submitted. After said waiting period, if no letters were submitted, he
@@ -166,7 +166,7 @@ export class Delayer<T> {
  * A helper to delay execution of a task that is being requested often, while
  * preventing accumulation of consecutive executions, while the task runs.
  *
- * Simply combine the two mail man strategies from the Throttler and Delayer
+ * Simply combine the two mail courier strategies from the Throttler and Delayer
  * helpers, for an analogy.
  */
 export class ThrottledDelayer<T> extends Delayer<Promise<T>> {
