@@ -11,8 +11,8 @@ export interface ITask<T> {
  * A helper to prevent accumulation of sequential async tasks.
  *
  * Imagine a mail courier with the sole task of delivering letters. As soon as
- * a letter submitted for delivery, they drive to the destination, delivers it
- * and returns to his base. Imagine that during the trip, N more letters were submitted.
+ * a letter submitted for delivery, they drive to the destination, deliver it
+ * and returns to their base. Imagine that during the trip, N more letters were submitted.
  * When the mail courier returns, they pick those N letters and delivers them all in a
  * single trip. Even though N+1 submissions occurred, only 2 deliveries were made.
  *
