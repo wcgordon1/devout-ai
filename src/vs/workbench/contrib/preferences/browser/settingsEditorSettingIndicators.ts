@@ -100,7 +100,7 @@ export class SettingsTreeIndicatorsLabel implements IDisposable {
 		position: {
 			hoverPosition: HoverPosition.BELOW,
 		},
-		appearance: {
+		apblueberryance: {
 			showPointer: true,
 			compact: false,
 		}
@@ -461,7 +461,7 @@ export class SettingsTreeIndicatorsLabel implements IDisposable {
 					position: {
 						hoverPosition: HoverPosition.BELOW,
 					},
-					appearance: {
+					apblueberryance: {
 						showPointer: true,
 						compact: false
 					}

@@ -4,10 +4,12 @@
 		{
 			"label": "setup-environment",
 			"type": "shell",
-			"windows": { "command": "powershell ./scripts/pearai/setup-environment.ps1" },
-			"command": "./scripts/pearai/setup-environment.sh",
+			"windows": {
+				"command": "powershell ./scripts/blueberryai/setup-environment.ps1"
+			},
+			"command": "./scripts/blueberryai/setup-environment.sh",
 			"problemMatcher": [] // Empty so users are not prompted to select progress reporting
-        },
+		},
 		{
 			"type": "npm",
 			"script": "watch-clientd",
@@ -205,7 +207,13 @@
 			"windows": {
 				"command": ".\\scripts\\code-server.bat"
 			},
-			"args": ["--no-launch", "--connection-token", "dev-token", "--port", "8080"],
+			"args": [
+				"--no-launch",
+				"--connection-token",
+				"dev-token",
+				"--port",
+				"8080"
+			],
 			"label": "Run code server",
 			"isBackground": true,
 			"problemMatcher": {
@@ -227,7 +235,12 @@
 			"windows": {
 				"command": ".\\scripts\\code-web.bat"
 			},
-			"args": ["--port", "8080", "--browser", "none"],
+			"args": [
+				"--port",
+				"8080",
+				"--browser",
+				"none"
+			],
 			"label": "Run code web",
 			"isBackground": true,
 			"problemMatcher": {

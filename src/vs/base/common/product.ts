@@ -147,8 +147,8 @@ export interface IProductConfiguration {
 	readonly licenseUrl?: string;
 	readonly serverLicenseUrl?: string;
 	readonly privacyStatementUrl?: string;
-	readonly pearAIHomepageURL?: string;
-	readonly pearAILinks?: {
+	readonly blueberryAIHomepageURL?: string;
+	readonly blueberryAILinks?: {
 		homepage: string;
 		dashboard: string;
 		faq: string;
@@ -200,7 +200,7 @@ export interface IProductConfiguration {
 	readonly gitHubEntitlement?: IGitHubEntitlement;
 	readonly chatWelcomeView?: IChatWelcomeView;
 	readonly chatParticipantRegistry?: string;
-	readonly pearAIVersion?: string;
+	readonly blueberryAIVersion?: string;
 }
 
 export interface ITunnelApplicationConfig {

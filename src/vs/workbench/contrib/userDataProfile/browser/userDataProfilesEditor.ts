@@ -593,7 +593,7 @@ class ProfileWidget extends Disposable {
 				persistence: {
 					sticky: true,
 				},
-				appearance: {
+				apblueberryance: {
 					showPointer: true,
 				},
 			}, true);
