@@ -11,9 +11,9 @@ export interface ITask<T> {
  * A helper to prevent accumulation of sequential async tasks.
  *
  * Imagine a mail courier with the sole task of delivering letters. As soon as
- * a letter submitted for delivery, he drives to the destination, delivers it
+ * a letter submitted for delivery, they drives to the destination, delivers it
  * and returns to his base. Imagine that during the trip, N more letters were submitted.
- * When the mail courier returns, he picks those N letters and delivers them all in a
+ * When the mail courier returns, they picks those N letters and delivers them all in a
  * single trip. Even though N+1 submissions occurred, only 2 deliveries were made.
  *
  * The throttler implements this via the queue() method, by providing it a task
@@ -81,8 +81,8 @@ export class Throttler<T> {
  * A helper to delay execution of a task that is being requested often.
  *
  * Following the throttler, now imagine the mail courier wants to optimize the number of
- * trips proactively. The trip itself can be long, so the he decides not to make the trip
- * as soon as a letter is submitted. Instead he waits a while, in case more
+ * trips proactively. The trip itself can be long, so the they decides not to make the trip
+ * as soon as a letter is submitted. Instead they waits a while, in case more
  * letters are submitted. After said waiting period, if no letters were submitted, he
  * decides to make the trip. Imagine that N more letters were submitted after the first
  * one, all within a short period of time between each other. Even though N+1
