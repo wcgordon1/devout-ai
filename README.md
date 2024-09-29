@@ -1,6 +1,6 @@
 # blueberryAI: The Open Source AI-Powered Code Editor
 
-Supercharge your development with an editor designed for less coding, using AI. blueberryAI is forked from VSCode and Continue, and aims to reduce the time from ideation to conception for your product development by achieving the most seamless integration with AI.
+Supercharge your development with an editor designed for less coding, using AI. blueberryAI is forked from VSCode and Continue and PearAI, and aims to reduce the time from ideation to conception for your product development by achieving the most seamless integration with AI.
 
 To download the full app, visit our homepage at https://tryblueberry.ai.
 
