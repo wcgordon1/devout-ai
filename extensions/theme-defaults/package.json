@@ -17,7 +17,7 @@
         "id": "Default blueberryAI Dark",
         "label": "%blueberryAIDarkThemeLabel%",
         "uiTheme": "vs-dark",
-        "path": "./themes/blueberryai_dark.json"
+        "path": "./themes/DevoutAI_dark.json"
       },
       {
         "id": "Default Dark+",
@@ -35,7 +35,7 @@
         "id": "Default blueberryAI Light",
         "label": "%blueberryAILightThemeLabel%",
         "uiTheme": "vs",
-        "path": "./themes/blueberryai_light.json"
+        "path": "./themes/DevoutAI_light.json"
       },
       {
         "id": "Default Light+",
