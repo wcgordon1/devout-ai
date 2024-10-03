@@ -26,9 +26,9 @@ interface WatermarkEntry {
 	readonly when?: ContextKeyExpression;
 }
 
-const openblueberryAIChat: WatermarkEntry = { text: localize('watermark.openblueberryAIChat', "Open Chat"), id: 'blueberryai.focusContinueInput', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
-const bigChat: WatermarkEntry = { text: localize('watermark.blueberryAIBigChat', "Big Chat"), id: 'blueberryai.resizeAuxiliaryBarWidth', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
-const prevChat: WatermarkEntry = { text: localize('watermark.blueberryAIPrevChat', "Previous Chat"), id: 'blueberryai.loadRecentChat', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
+const openblueberryAIChat: WatermarkEntry = { text: localize('watermark.openblueberryAIChat', "Open Chat"), id: 'DevoutAI.focusContinueInput', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
+const bigChat: WatermarkEntry = { text: localize('watermark.blueberryAIBigChat', "Big Chat"), id: 'DevoutAI.resizeAuxiliaryBarWidth', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
+const prevChat: WatermarkEntry = { text: localize('watermark.blueberryAIPrevChat', "Previous Chat"), id: 'DevoutAI.loadRecentChat', when: ContextKeyExpr.has('blueberryAIExtensionLoaded') };
 const showCommands: WatermarkEntry = { text: localize('watermark.showCommands', "Show All Commands"), id: 'workbench.action.showCommands' };
 const quickAccess: WatermarkEntry = { text: localize('watermark.quickAccess', "Go to File"), id: 'workbench.action.quickOpen' };
 const openFileNonMacOnly: WatermarkEntry = { text: localize('watermark.openFile', "Open File"), id: 'workbench.action.files.openFile', mac: false };
