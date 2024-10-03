@@ -136,7 +136,7 @@ jobs:
           yarn playwright install
 
       - name: Compile and Download
-        run: ./scripts/blueberryai/setup-environment.sh
+        run: ./scripts/DevoutAI/setup-environment.sh
 
       - name: Compile Integration Tests
         run: yarn --cwd test/integration/browser compile
@@ -193,7 +193,7 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
         run: |
-          ./scripts/blueberryai/setup-environment.sh
+          ./scripts/DevoutAI/setup-environment.sh
           yarn install
           yarn add --dev npm-run-all
 
