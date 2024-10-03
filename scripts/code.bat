@@ -25,7 +25,7 @@ set ELECTRON_ENABLE_STACK_DUMPING=1
 
 :: Get blueberry AI
 setlocal
-cd extensions/blueberryai-submodule
+cd extensions/DevoutAI-submodule
 powershell.exe -executionpolicy bypass -file .\scripts\build-extension.ps1
 endlocal
 
